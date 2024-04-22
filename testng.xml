@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AppTestSuite" thread-count="2" parallel="tests">
+   
+    <test name="Amazon home page test">
+        <classes>
+            <class name="web.amazon.AmazonHomePageTest"></class>
+        </classes>
+    </test>
+
+    <test name="Amazon product page test">
+        <classes>
+            <class name="web.amazon.AmazonProductAddCartTest"></class>
+        </classes>
+    </test>
+
+</suite>
